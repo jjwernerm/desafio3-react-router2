@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*** * ****/
+
+h1 {
+  text-align: center;
+}
+
+/*** Navbar.jsx ****/
+
+.active {
+  text-decoration: none;
+  color: red;
+}
+
+.inactive {
+  text-decoration: none;
+  color: white;
+}
+
+/*** Home.jsx ****/
+
+.picachu {
+  background-image: url("/public/picachu.png");
+  width: 500px;
+  height: 500px;
+  background-position: center;
+	background-size: cover;
+}
+
+/*** Pokemones.jsx ****/
+
+
+/*** Pokemon.jsx ****/
+
+.info-flex {
+  display: flex;
+}
+
+.bold-font, .navbar-brand  {
+  font-weight: bold;
+}
+
+
+
